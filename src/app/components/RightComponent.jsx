@@ -14,6 +14,7 @@ function RightComponent() {
     password: "",
   });
 
+    // handle change function to handle the inpu behaviour
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
