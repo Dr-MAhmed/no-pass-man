@@ -88,7 +88,7 @@ function RightComponent() {
       console.error("Error fetching website details:", error);
     }
   };
-
+// handle delete for deleting the entire card 
   const handleDeleteWebsiteDetail = async (id) => {
     MySwal.fire({
       title: "Are you sure?",
